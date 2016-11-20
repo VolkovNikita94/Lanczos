@@ -127,5 +127,5 @@ double Lanczos(int mat_size, int mat_lines, int iter_num, int p_rank, int p_size
 	delete alpha_values;
 	delete beta_values;
 
-	return total_time;
+	return total_time; 
 }
